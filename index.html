@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-sizzer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock Paper sizzer</h1>
+    <div class="images">
+      <div class="parent" ><img id="rock" src="images/rock.png" alt="Rock" /></div>
+      <div class="parent">
+        <img id="paper" src="images/paper.png" alt="paper" />
+      </div>
+      <div class="parent">
+        <img id="sizzer" src="images/scissors.png" alt="sizzer" />
+      </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <div class="message-container">
+        <p class="message">Play your move</p>
+      </div>
+      <div class="container"><button class="btn">Reset</button></div>
+  </body>
+  <script src="script.js"></script>
+</html>
